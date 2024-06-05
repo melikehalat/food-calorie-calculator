@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calorie Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Food Calorie Calculator</h1>
+        <input type="text" id="foodInput" placeholder="Enter food item" />
+        <input type="number" id="gramInput" placeholder="Enter grams" />
+        <select id="unitSelect">
+            <option value="gram">Gram</option>
+            <option value="tablespoon">Tablespoon</option>
+            <option value="cup">Cup</option>
+        </select>
+        <button onclick="calculateCalories()">Calculate</button>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
